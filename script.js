@@ -23,7 +23,7 @@ function myFunc() {
   swal("Please fill your Email ID!");  
  }else if(document.getElementById('pincode').value == ""){
   swal("Please fill pincode!");
- }else if (gender1[0].checked === false && gender1[0].checked === false){
+ }else if (gender1[0].checked === false && gender1[1].checked === false){
       swal("Please select a gender");
  }else if((food.split(" ")).length<2){
   swal("Please select at least 2 foods");
